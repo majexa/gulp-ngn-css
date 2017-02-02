@@ -1,0 +1,22 @@
+{
+  "name": "gulp-ngn-css",
+  "version": "1.0.0",
+  "description": "Gulp Ngn CSS builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masted/gulp-ngn-css.git"
+  },
+  "keywords": [
+    "ngn"
+  ],
+  "author": "Andrey Yartsev <andrey.yartsev.g.@gmail.com> (http://majexa.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masted/gulp-ngn-css/issues"
+  },
+  "homepage": "https://github.com/masted/gulp-ngn-css#readme"
+}

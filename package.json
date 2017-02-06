@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/masted/gulp-ngn-css/issues"
   },
-  "homepage": "https://github.com/masted/gulp-ngn-css#readme"
+  "homepage": "https://github.com/masted/gulp-ngn-css#readme",
+  "dependencies": {
+    "gulp-exec": "^2.1.3"
+  }
 }

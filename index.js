@@ -1,7 +1,9 @@
 var exec = require('gulp-exec');
 
 module.exports = function(opt) {
-  var cmd = 'php ./ngn-env/run/run.php "new CliAccessArgsSingle(\'html <%= file.path %> ' + //
+  var cmd = 'php ' + //
+    (opt.ngnEnvFolder || './ngn-env') + //
+    '/run/run.php "new CliAccessArgsSingle(\'html <%= file.path %> ' + //
     opt.buildFolder + ' ' + opt.name + '\', new CssBuildTool)" ngn-cs';
   return exec(cmd, {
     continueOnError: false,

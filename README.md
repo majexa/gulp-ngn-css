@@ -19,7 +19,7 @@ Next example
 
 - Parse `<script>` tags in index.html
 - Find NgnJs classes tree and collect relevant CSS files
-- Placed it `build/m/css` folder
+- Place it `build/m/css` folder
 
 Contents of index.html
 ```html

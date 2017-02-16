@@ -15,6 +15,12 @@ git clone https://github.com/mootools/mootools-more
 Usage
 -----
 
+Next example
+
+- Parse `<script>` tags in index.html
+- Find NgnJs classes tree and collect relevant CSS files
+- Placed it `build/m/css` folder
+
 Contents of index.html
 ```html
 <script>
@@ -22,9 +28,6 @@ new Ngn.SomeClass();
 </script>
 ```
 
-Next gulp task will parse `<script>` tags in index.html.
-Then all default CSS files for found NgnJs classes will be collected and
-placed in `build/m/css` folder.
 
 ```javascript
 var gulp = require('gulp');

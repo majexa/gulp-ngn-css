@@ -17,9 +17,9 @@ Usage
 
 Next example
 
-- Parse `<script>` tags in index.html
-- Find NgnJs classes tree and collect relevant CSS files
-- Place it `build/m/css` folder
+- Parses `<script>` tags in index.html
+- Builds NgnJs classes tree and collect relevant CSS files
+- Places it `build/m/css` folder
 
 Contents of index.html
 ```html

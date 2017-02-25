@@ -9,7 +9,7 @@ module.exports = function (opt) {
     // --------------------- PHP NGN COMMAND -----------------------------
     var cmd = 'php ' + //
       (opt.ngnEnvFolder || './ngn-env') + //
-      '/run/run.php "new CliAccessArgsSingle(\'html <%= file.path %> ' + //
+      '/run/run.php "new CliAccessArgsSingle(\'html ' + file.path + ' ' + //
       opt.buildFolder + ' ' + opt.name + '\', new CssBuildTool)" ngn-cs' +
       (opt.projectFolder ? ',' + opt.projectFolder : '');
     // -------------------------------------------------------------------

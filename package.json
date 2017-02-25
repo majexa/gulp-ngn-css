@@ -1,6 +1,6 @@
 {
   "name": "gulp-ngn-css",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gulp Ngn CSS builder",
   "main": "index.js",
   "scripts": {
